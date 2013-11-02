@@ -1,0 +1,22 @@
+1. use jsstack to take thread-dump of running jvm 
+2. use jconsole to attach <pid>
+   look at Heap memory regions
+    -  eden for new objects
+    -  survivor for objs surviving eden region gc
+    -  old gen region for long standing objs
+    
+    two gc types found
+    - parNew (young collection)
+    - concurrentMarkSweep (old collection)
+
+    gc log (configured typically at /log/tomcat/gc.log) format
+    GC <heap space before> -> <heap space after> (total commited heap space), <time took for collection>
+
+3. Running a single test with gradle
+gradle -D:platform:test.single=com/netflix/adminresources/ServerTest test
+
+4. Running single hadoop node on laptop
+- set JAVA_HOME to 1.6 (1.7 version does not work - keep getting some kerberos security error)
+/usr/local/Cellar/hadoop/1.2.1/libexec/bin/start-all.sh
+hadoop dfs -ls /
+/usr/local/Cellar/hadoop/1.2.1/libexec/bin/stop-all.sh

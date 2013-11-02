@@ -1,0 +1,11 @@
+1. Service registry (Discovery)
+2. Web Application platform / architecture (Governator, Base Server)
+3. Dynamic configuration management (fastproperty)
+4. Load balancing http client (niws)
+5. DNS management api (denominator, Route53Service)
+6. Logging data pipeline ( LogManager -> chukwa -> kafka -> druid, elastic search
+7. Zookeeper receipes - distributed coordination
+8. Tools to explore data 
+   explorers, properties console, cassandra explorer
+9. AWS secret + access key management 
+    - cryptex, HSM

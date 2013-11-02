@@ -1,0 +1,8 @@
+-Dnetflix.env=test
+-Dnetflix.environment=test
+-Dnetflix.datacenter=cloud
+-DEC2_REGION=us-east-1
+-Dnetflix.discovery.registration.enabled=false
+-Dnetflix.epic.enabled=false
+-Xms512m
+-Xmx512m

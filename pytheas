@@ -1,0 +1,13 @@
+Pytheas
+
+Links for build + release via sonatype
+
+http://builds.netflix.com/job/OSS-Pytheas-release/
+https://oss.sonatype.org/index.html#stagingRepositories
+
+
+Feature requests
+Need Asset pipeline just as Grails framework
+does it support  LESS css macros  ?
+support Angular JS ?
+easy UI code generation based on a REST endpoint exporting a simple Map<String, String>

@@ -1,0 +1,12 @@
+Asgard
+
+grails test-app
+grails run-app
+grails clean ?
+
+single spock test
+./grailsw test-app unit:spock FastPropertyTagLibSpec
+
+property with advanced scoping
+explorer.test.advanced.prop1
+
